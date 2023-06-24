@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.main-title {
+  color: var(--main-red);
+}
+
+body {
+  background-color: var(--main-white) !important;
+}
+
+main {
+  margin-top: 5rem;
+}

@@ -1,0 +1,51 @@
+.navbar {
+    background-color: var(--dark);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999 !important;
+}
+
+.navbar-brand {
+    color: var(--main-red) !important;
+    font-weight: 600;
+}
+
+.nav-item .nav-link {
+    color: var(--main-white);
+}
+
+.nav-link:hover {
+    color: var(--pure-white) !important;
+}
+
+.bag {
+    position: relative;
+    display: flex;
+}
+
+.bag span {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 22px;
+    height: 22px;
+    background-color: var(--pure-white);
+    color: var(--main-red);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.bag-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.bag:hover span {
+    background-color: var(--main-white);
+}
